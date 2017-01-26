@@ -75,7 +75,7 @@
                 <h2>Bind Redux to Vuex</h2>
                 <img src="img/portfolio/fullsize/dollwhite.png" width="150px">
                 <hr>
-                <p>A lighweight utility layer that binds Redux to Vuex allowing applications to incorporate Vue components while enjoying the benefits of both Redux and Vuex state management systems.</p>
+                <p>An open-source lightweight utility layer that binds Redux to Vuex allowing applications to incorporate Vue components while enjoying the benefits of both Redux and Vuex state management systems.</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Get Started</a>
             </div>
         </div>
@@ -88,8 +88,23 @@
                     <h2 class="section-heading">How It Works</h2>
                     <hr class="light">
                     <img src="img/portfolio/fullsize/doll.jpg" width="80px">
-                    <p class="text-faded">Coming Soon.</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button"> Full Documentation</a>
+                    <p class="text-faded"><h4>The Veudeux Vue component consist of two (deux) parts.  </h4>
+
+                    <b>THE MIXIN</b>
+                    <br>
+                        The mixinCreator takes in Redux's actionCreators and reduxStore.  Utilizing these parameters the Vuex store (state & actions) is able to update with any changes taking place in the Redux store.
+
+                        <br>
+                        <br>
+
+                    <b>THE PLUGIN</b>
+                    <br>
+                        The pluginCreator takes in Redux's actionTypes and reduxStore.  It then automaitically translates the Redux action types into Vuex mutations that trigger (aka commit) a dispatch to the corresponding Redux actions, thus updating the Redux state via reducers. 
+                    <br>
+                    <br>
+                        Whether needs call for working with an existing Redux codebase or simplyifying the process of converting into Vue, Veudeux's simple installation and direct documentation make binding easy.
+                    </p>
+                    <a href="https://www.gitbook.com/book/vueduex/vuedeux-documentation/details" class="page-scroll btn btn-default btn-xl sr-button"> Full Documentation</a>
                 </div>
             </div>
         </div>
