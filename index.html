@@ -56,7 +56,7 @@
                         <a class="page-scroll" href="https://vueduex.gitbooks.io/vuedeux-documentation/content/">Documentation</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">NPM</a>
+                        <a class="page-scroll" href="https://www.npmjs.com/package/vuedeux">NPM</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="https://github.com/Vuedeux/vuedeux">Github</a>
@@ -75,13 +75,13 @@
                 <h2>The Binding Spell For Vuex & Redux</h2>
                 <img src="img/portfolio/fullsize/dollwhite.png" width="150px">
                 <hr>
-                <p>A lightweight open-source utility layer for binding VueX to Redux that allows developers to reuse their pre-existing Redux state management libraries.</p>
+                <p>A lightweight open-source utility layer for binding Vuex to Redux that allows developers to reuse their pre-existing Redux state management libraries.</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Cast Spell</a>
             </div>
         </div>
     </header>
 
-    <section class="bg-primary" id="about">
+    <section class="bg-primary" id="about" style="position: relative">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -89,26 +89,36 @@
                     <hr class="light">
                     <img src="img/portfolio/fullsize/doll.jpg" width="80px">
                     <p class="text-faded"><h4>The Veudeux package consist of two (deux) parts.  </h4>
+                    <br>
 
                     <b>THE MIXIN</b>
                     <br>
-                        The mixinCreator takes in Redux's actionCreators and reduxStore.  Utilizing these parameters the Vuex store (state & actions) is able to update with any changes taking place in the Redux store.
+                        The mixin interfaces with Vue components and relays Vuex & Redux updates to the root component.
 
                         <br>
                         <br>
 
                     <b>THE PLUGIN</b>
                     <br>
-                        The pluginCreator takes in Redux's actionTypes and reduxStore.  It then automatically translates the Redux action types into Vuex mutations that trigger (aka commit) a dispatch to the corresponding Redux actions, thus updating the Redux state via reducers. 
+                     The plugin maps Redux action types into Vuex mutations that trigger dispatches between Vuex & Redux.
+                     </p>
+                    <br>
+                   
+                    <a href="https://vueduex.gitbooks.io/vuedeux-documentation/content/" class="page-scroll btn btn-default btn-xl sr-button"> Full Documentation</a>
                     <br>
                     <br>
-                        Whether needs call for working with an existing Redux codebase or simplyifying the process of converting into Vue, Veudeux's simple installation and direct documentation make binding easy.
+                    <br>
+                    <p>
+                         Whether needs call for working with an existing Redux codebase or simplyifying the process of converting into Vue, Vuedeux's simple installation and direct documentation make binding easy.
                     </p>
-                    <a href="https://www.gitbook.com/book/vueduex/vuedeux-documentation/details" class="page-scroll btn btn-default btn-xl sr-button"> Full Documentation</a>
                 </div>
             </div>
         </div>
+          <div style="bottom: 0; position: absolute; width: 100%">
+              <p style="background-color: #42b983; font-size: 1em; color: black; text-align: center">Built by Nikol Marentes, David Marx, & Brian Rudloff</p>
+              </div>
     </section>
+    
 
        <!--<aside class="bg-dark" id="services">
         <div class="container text-center">
@@ -144,10 +154,11 @@
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:your-email@your-domain.com"></a></p>
                 </div>-->
-            </div>
-        </div>
-    </section>-->
-
+            <!--</div>
+        </div>-->
+          
+    <!--</section>-->
+          
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
@@ -161,7 +172,7 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
-
+    
 </body>
 
 </html>
