@@ -1,27 +1,29 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
+[![NPM](https://nodei.co/npm/vuedeux.png?compact=true)](https://npmjs.org/package/vuedeux)
 
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+# vuedeux
 
-## Getting Started
+![Alt Text](https://github.com/dmrx/vuedoo/raw/master/examples/TodoMVC/assets/vuedeuxsmall.png)
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/creative/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-creative.git`
-* Fork the repo
 
-## Bugs and Issues
+## Full Documentation
+https://vueduex.gitbooks.io/vuedeux-documentation/content/
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
+## Synopsis 
 
-## Creator
+Vuedeux is a lightweight open-source utility layer for binding Vuex to Redux in a way that allows developers to re-use their pre-existing Redux stores.
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+## Motivation
+Vuedeux answers our team's desire to create a simple way to re-use and share state-management code with Vue/Vuex. The decision to create the Vuedeux compatibility layer between Vuex and Redux was inspired by the idea of uniting the quickly growing Vue community and Redux's broad user-base and ecosystem.
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+We love Vue & Vuex. We love the elegance and the tight integration. We love Redux. We love that it is framework agnostic and has a robust ecosystem of tools, middlewares, and bindings.
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+We wanted to make them work together in a developer-friendly and highly customizable way to encourage interoperability and streamline reusability of code bases.
 
-## Copyright and License
+Vuedeux allows Redux developers to feel at home in Vue while providing all the conveniences and efficiencies of Vuex.
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license.
+
+## How It Works
+The Vuedeux Plugin Creator takes your Redux action types and Redux store, and then maps your Redux state and all associated actions to a Vuex module with equivalent actions and mutations, allowing you to easily reuse your existing Redux state store and dispatch to Vuex just like you would with Redux.
+
+## Prerequisites
+Redux, Vue, Vuex
